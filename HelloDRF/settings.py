@@ -1,3 +1,4 @@
+from my_settings import SECRET_KEY
 """
 Django settings for HelloDRF project.
 
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-uu1j^r@r!wzm*t0(&g3_g#=8$4)#p2y=2++!yb008=kz-34%##'
+SECRET_KEY = SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
